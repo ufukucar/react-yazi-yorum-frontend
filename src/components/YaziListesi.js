@@ -15,6 +15,7 @@ function YaziListesi(props) {
   }, []);
 
   //
+  return (
     <div className="ui relaxed divided list">
       {yaziListesi.map((yazi) => {
         return (
